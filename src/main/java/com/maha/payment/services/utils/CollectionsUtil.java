@@ -183,6 +183,7 @@ public class CollectionsUtil {
 		return headers;
 	}
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void convertToOneLevelWithQualifiedNameFull(Map<String, Object> props, Map<String, Object> finalMap,
 			String parent) {
 		for (Map.Entry<String, Object> entry : props.entrySet()) {

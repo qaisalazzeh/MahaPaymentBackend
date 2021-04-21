@@ -1,8 +1,8 @@
 package com.maha.payment.services.Impl;
 
+import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.commons.collections.map.HashedMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -30,7 +30,7 @@ public class ResponseServiceImpl implements ResponseService {
 	public Map<String, Object> generateTechnicalProblemResponse() {
 		LOGGER.info("inside generateTechnicalProblemResponse()");
 
-		Map<String, Object> responseMap = new HashedMap();
+		Map<String, Object> responseMap = new HashMap<String, Object>();
 		responseMap.put(BackendParams.RESPONSE_CODE, ResponseCodes.TECHNICAL_ERROR);
 		responseMap.put(BackendParams.RESPONSE_MSG, ResponseMessages.TECHNICAL_ERROR);
 		responseMap.put(BackendParams.INVOICE_DETAILS, null);

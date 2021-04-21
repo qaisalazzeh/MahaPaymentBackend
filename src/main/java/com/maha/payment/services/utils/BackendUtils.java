@@ -17,6 +17,7 @@ public class BackendUtils {
 	 * @param apiResponse
 	 * @return
 	 */
+	@SuppressWarnings("unchecked")
 	public static Map<String, Object> getObjectAsMap(Object apiResponse) {
 		ObjectMapper oMapper = new ObjectMapper();
 		Map<String, Object> map = oMapper.convertValue(apiResponse, Map.class);
