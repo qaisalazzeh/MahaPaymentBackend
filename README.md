@@ -63,26 +63,26 @@ sudo systemctl start mongod
   "price": "100",
   "discountThreshold": "3",
   "discountPrice": "200",
-  "_class": "com.example.MahaPaymentServices.mongo.entities.WatchCatalog"
+  "_class": "com.maha.payment.services.mongo.entities.WatchCatalog"
 },{
   "_id": "002",
   "name": "Michael Kors",
   "price": "80",
   "discountThreshold": "2",
   "discountPrice": "120",
-  "_class": "com.example.MahaPaymentServices.mongo.entities.WatchCatalog"
+  "_class": "com.maha.payment.services.mongo.entities.WatchCatalog"
 },{
   "_id": "003",
   "name": "Swatch",
   "price": "50",
-  "_class": "com.example.MahaPaymentServices.mongo.entities.WatchCatalog",
+  "_class": "com.maha.payment.services.mongo.entities.WatchCatalog",
   "discountThreshold": "0",
   "discountPrice": "0"
 },{
   "_id": "004",
   "name": "Casio",
   "price": "30",
-  "_class": "com.example.MahaPaymentServices.mongo.entities.WatchCatalog",
+  "_class": "com.maha.payment.services.mongo.entities.WatchCatalog",
   "discountPrice": "0",
   "discountThreshold": "0"
 }]
