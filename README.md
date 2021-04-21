@@ -49,7 +49,10 @@ INSERT INTO `mahaBackend`.`Merchant_entity`
 (`id`, `NAME`, `ACCESS_CODE`, `MAHA_CODE`, `PHONE_NUMBER`, `WEBSITE`, `SHA_PASS`, `IDENTIFIER`) VALUES ('1', 'Qais Azzeh', 'code293084', 'maha001', '0799793061', 'www.qazzeh.maha.com.ae', 'oiquywe%$#', 'qazzeh');
 ```
 
-
+* From Your Terminal , Make Sure you are running Mongo Enginer: 
+```bash
+sudo systemctl start mongod
+```
 
 * Now open MongoDB Compass and import the below catalog collection:
 
