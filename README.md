@@ -1,5 +1,5 @@
 # Maha Payment Backend API
-SpringBoot Back end Application Uses Java 15, Maven Consumes Json request body and calculate price for checkout process
+SpringBoot Backend Application Uses Java 15, Maven Consumes Json request body and calculate price for checkout process and retrun Price for cart details and invoice information
 
 
 ## Installation-Prerequisites
