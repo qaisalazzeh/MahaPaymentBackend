@@ -86,7 +86,8 @@ public class CheckoutServiceTest {
 
 		assertTrue(Objects
 				.isNull(checkoutResponse.getInvoiceResponseMap().get("005").get(BackendParams.TOTAL_ITEM_PRICE)));
-		assertTrue(checkoutResponse.getInvoiceResponseMap().get("005").get(BackendParams.ITEM_NAME).equals("Item Not Found"));
+		assertTrue(checkoutResponse.getInvoiceResponseMap().get("005").get(BackendParams.ITEM_NAME)
+				.equals("Item Not Found"));
 
 		assertTrue(checkoutResponse.getPrice().equals(990));
 		assertTrue(checkoutResponse.getResponseCode().equals("00000"));
