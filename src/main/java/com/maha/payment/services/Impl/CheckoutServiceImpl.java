@@ -85,7 +85,7 @@ public class CheckoutServiceImpl extends CommonServices implements CheckoutServi
 				prepareInvoiceMapForResponse(invoiceDetails, itemPrice, key, watchCatalog.getName(),
 						Integer.valueOf(String.valueOf(cartItems.get(key))));
 			} else {
-				prepareInvoiceMapForResponse(invoiceDetails, null, key, null,
+				prepareInvoiceMapForResponse(invoiceDetails, null, key, "Item Not Found",
 						Integer.valueOf(String.valueOf(cartItems.get(key))));
 			}
 		}
